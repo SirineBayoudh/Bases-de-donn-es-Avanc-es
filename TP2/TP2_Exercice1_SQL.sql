@@ -2,7 +2,6 @@
 -- NOM : BAYOUDH Sirine
 -- TP2 - Bases de Données
 -- Exercice 1 : Requêtes SQL
--- Version reformulée
 -- ============================================================
 
 /* 1) Département disposant du budget maximal */
