@@ -1,9 +1,5 @@
--- TP1 Oracle APEX - version propre pour SQL Workshop / SQL Commands
--- Basé sur le schema university du sujet, avec adaptation Oracle
--- Important : exécuter ce script par blocs dans APEX si besoin
-
 -- =====================================================
--- 1) SUPPRESSION DES TABLES (ignore les erreurs si elles n'existent pas)
+-- 1) SUPPRESSION DES TABLES (si elles existent déja)
 -- =====================================================
 BEGIN EXECUTE IMMEDIATE 'DROP TABLE takes CASCADE CONSTRAINTS'; EXCEPTION WHEN OTHERS THEN NULL; END;
 /
